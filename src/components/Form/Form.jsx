@@ -64,7 +64,7 @@ const Form = () => {
               </p>
             </div>
           ) : (
-            <div className="my-10 border-2 px-6 py-10 border-orange-500 rounded-xl">
+            <div className="my-10 border-2 sm:px-6 px-4 py-10 border-orange-500 rounded-xl">
               <form onSubmit={handleSubmit}>
                 <label className="text-xl">
                   Name:

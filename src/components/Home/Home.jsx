@@ -23,7 +23,7 @@ const Home = () => {
   }, [])
   return (
     <div className='container mx-auto h-full'>
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
       <div className='flex flex-wrap justify-center my-10 drop-shadow-xl'>
         {shows.map(show => (
           <Card key={show.show.id} show={show.show} />
